@@ -1,0 +1,26 @@
+{
+
+  "manifest_version": 2,
+  "name": "md5er",
+  "version": "1.0",
+
+  "description": "An accesible mod 5 encryptor/decryptor",
+
+  "icons": {
+    "32": "icons/icon-32.png"
+  },
+  "browser_action": {
+      "default_icon": "icons/icon-32.png",
+      "default_title": "md5er",
+      "default_popup": "popup/mod5.html"
+  },
+  "permissions": [
+    "activeTab"
+ ],
+ "applications": {
+  "gecko": {
+    "id": "cosmeEscobedo@md5er.com"
+  }
+}
+
+}
